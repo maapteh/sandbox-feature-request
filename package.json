@@ -2,7 +2,7 @@
     "name": "sample",
     "scripts": {
         "-------- TESTING ------": "------------------------------------------",
-        "test": "NODE_OPTIONS='--experimental-vm-modules' jest --config=jest.config.js --watchAll"
+        "start": "NODE_OPTIONS='--experimental-vm-modules' jest --config=jest.config.js --watchAll"
     },
     "dependencies": {
         "graphql": "^15.5.0",
